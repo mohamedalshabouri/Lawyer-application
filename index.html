@@ -1,0 +1,1329 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f1e35" />
+
+    <title>
+      مكتب الميزان للمحاماة والاستشارات القانونية | Al-Mizan Law Office
+    </title>
+    <meta
+      name="description"
+      content="نموذج تجريبي (Demo) لموقع مكتب الميزان للمحاماة والاستشارات القانونية في جمهورية مصر العربية. جميع البيانات والأسماء والأرقام افتراضية لأغراض العرض فقط."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="author" content="Demo Project" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta
+      property="og:site_name"
+      content="مكتب الميزان للمحاماة والاستشارات القانونية"
+    />
+    <meta
+      property="og:title"
+      content="مكتب الميزان للمحاماة والاستشارات القانونية — نموذج تجريبي"
+    />
+    <meta
+      property="og:description"
+      content="موقع تجريبي لمكتب محاماة افتراضي في جمهورية مصر العربية. البيانات افتراضية وقابلة للاستبدال."
+    />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="assets/og-cover.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="مكتب الميزان للمحاماة والاستشارات القانونية — نموذج تجريبي"
+    />
+    <meta
+      name="twitter:description"
+      content="موقع تجريبي لمكتب محاماة افتراضي في جمهورية مصر العربية."
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1e35'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23c9a063' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="./css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">تخطَّ إلى المحتوى الرئيسي</a>
+
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar__inner">
+          <div class="topbar__group">
+            <span class="topbar__item">
+              <i class="bi bi-clock" aria-hidden="true"></i>
+              <span
+                >ساعات العمل:
+                <span data-office="hours"
+                  >الأحد – الخميس: ٩:٠٠ ص – ٥:٠٠ م</span
+                ></span
+              >
+            </span>
+            <span
+              class="topbar__item topbar__item--muted d-none d-md-inline-flex"
+            >
+              <i class="bi bi-info-circle" aria-hidden="true"></i>
+              <span>بيانات تجريبية لأغراض العرض</span>
+            </span>
+          </div>
+          <div class="topbar__group">
+            <a class="topbar__item" data-office-link="phone" href="#consult">
+              <i class="bi bi-telephone" aria-hidden="true"></i>
+              <span data-office="phoneDisplay">+20 100 000 0000</span>
+            </a>
+            <a
+              class="topbar__item"
+              data-office-link="whatsapp"
+              href="#consult"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              <span>واتساب</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container">
+        <div class="header__inner">
+          <a
+            class="brand"
+            href="#top"
+            aria-label="مكتب الميزان للمحاماة والاستشارات القانونية — الصفحة الرئيسية"
+          >
+            <span class="brand__mark" aria-hidden="true">
+              <svg
+                viewBox="0 0 32 32"
+                width="26"
+                height="26"
+                role="img"
+                focusable="false"
+              >
+                <rect
+                  x="1.5"
+                  y="1.5"
+                  width="29"
+                  height="29"
+                  rx="7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                />
+                <path
+                  d="M10 23V9h3.4l2.6 4.6L18.6 9H22v14h-2.6v-9.2L16.6 19h-1.2L12.6 13.8V23H10z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span class="brand__text">
+              <strong>الميزان</strong>
+              <small>للمحاماة والاستشارات القانونية</small>
+            </span>
+          </a>
+
+          <nav class="main-nav d-none d-lg-flex" aria-label="التنقل الرئيسي">
+            <a href="#practice" class="nav-link">مجالات الممارسة</a>
+            <a href="#about" class="nav-link">عن المكتب</a>
+            <a href="#process" class="nav-link">كيف نعمل</a>
+            <a href="#team" class="nav-link">الفريق</a>
+            <a href="#faq" class="nav-link">أسئلة شائعة</a>
+          </nav>
+
+          <div class="header__actions">
+            <a href="#consult" class="btn btn-copper d-none d-sm-inline-flex">
+              <i class="bi bi-envelope-paper" aria-hidden="true"></i>
+              <span>اطلب استشارة</span>
+            </a>
+            <button
+              class="nav-toggle d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileNav"
+              aria-controls="mobileNav"
+              aria-label="فتح قائمة التنقل"
+            >
+              <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="offcanvas offcanvas-end mobile-nav"
+      tabindex="-1"
+      id="mobileNav"
+      aria-labelledby="mobileNavLabel"
+    >
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title h5" id="mobileNavLabel">القائمة</h2>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="إغلاق القائمة"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav class="mobile-nav__links" aria-label="التنقل عبر الهاتف">
+          <a href="#practice" data-bs-dismiss="offcanvas">مجالات الممارسة</a>
+          <a href="#about" data-bs-dismiss="offcanvas">عن المكتب</a>
+          <a href="#process" data-bs-dismiss="offcanvas">كيف نعمل</a>
+          <a href="#team" data-bs-dismiss="offcanvas">الفريق</a>
+          <a href="#faq" data-bs-dismiss="offcanvas">أسئلة شائعة</a>
+          <a href="#consult" data-bs-dismiss="offcanvas">طلب استشارة</a>
+        </nav>
+        <div class="mobile-nav__contact">
+          <a
+            class="btn btn-copper w-100"
+            href="#consult"
+            data-bs-dismiss="offcanvas"
+          >
+            <i class="bi bi-envelope-paper" aria-hidden="true"></i>
+            <span>اطلب استشارة</span>
+          </a>
+          <a
+            class="btn btn-outline-navy w-100"
+            data-office-link="phone"
+            href="#consult"
+          >
+            <i class="bi bi-telephone" aria-hidden="true"></i>
+            <span data-office="phoneDisplay">+20 100 000 0000</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow eyebrow--light">
+                <span class="eyebrow__line" aria-hidden="true"></span>
+                جمهورية مصر العربية — نموذج تجريبي
+              </p>
+              <h1 class="hero__title" id="heroTitle">
+                استشارات قانونية واضحة، وخطوات عمل منظّمة
+              </h1>
+              <p class="hero__lead">
+                هذا موقع تجريبي لمكتب محاماة افتراضي. يعرض الموقع مجالات
+                الممارسة، وطريقة العمل، ونموذجًا لطلب استشارة. جميع البيانات
+                والأسماء والأرقام الواردة هنا افتراضية وقابلة للاستبدال، ولا
+                تمثل أي مكتب أو نشاط مهني فعلي.
+              </p>
+              <div class="hero__actions">
+                <a href="#consult" class="btn btn-copper btn-lg">
+                  <i class="bi bi-envelope-paper" aria-hidden="true"></i>
+                  <span>اطلب استشارة</span>
+                </a>
+                <a href="#practice" class="btn btn-ghost-light btn-lg">
+                  <span>استعرض مجالات الممارسة</span>
+                  <i class="bi bi-arrow-left" aria-hidden="true"></i>
+                </a>
+              </div>
+              <p class="hero__note">
+                <i class="bi bi-shield-exclamation" aria-hidden="true"></i>
+                محتوى هذا الموقع لا يُعد استشارة قانونية، ولا يُنشئ علاقة محامٍ
+                وموكّل.
+              </p>
+            </div>
+
+            <div class="col-lg-5">
+              <div
+                class="hero__card"
+                role="group"
+                aria-labelledby="heroCardTitle"
+              >
+                <h2 class="hero__card-title" id="heroCardTitle">
+                  بيانات العرض التجريبية
+                </h2>
+                <ul class="hero__facts">
+                  <li>
+                    <span class="hero__facts-icon" aria-hidden="true"
+                      ><i class="bi bi-geo-alt"></i
+                    ></span>
+                    <span>
+                      <strong>العنوان</strong>
+                      <span data-office="address"
+                        >١٢ شارع النيل، الدور الخامس، وسط البلد، القاهرة</span
+                      >
+                    </span>
+                  </li>
+                  <li>
+                    <span class="hero__facts-icon" aria-hidden="true"
+                      ><i class="bi bi-clock-history"></i
+                    ></span>
+                    <span>
+                      <strong>ساعات العمل</strong>
+                      <span data-office="hours"
+                        >الأحد – الخميس: ٩:٠٠ ص – ٥:٠٠ م</span
+                      >
+                    </span>
+                  </li>
+                  <li>
+                    <span class="hero__facts-icon" aria-hidden="true"
+                      ><i class="bi bi-telephone"></i
+                    ></span>
+                    <span>
+                      <strong>هاتف تجريبي</strong>
+                      <span data-office="phoneDisplay">+20 100 000 0000</span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="hero__facts-icon" aria-hidden="true"
+                      ><i class="bi bi-envelope"></i
+                    ></span>
+                    <span>
+                      <strong>بريد تجريبي</strong>
+                      <span data-office="email">info@almizan-demo.example</span>
+                    </span>
+                  </li>
+                </ul>
+                <p class="hero__card-foot">
+                  <i class="bi bi-pencil-square" aria-hidden="true"></i>
+                  هذه القيم قابلة للتعديل من ملف <code>js/app.js</code>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice-strip" aria-label="تنبيه هام">
+        <div class="container">
+          <div class="notice-strip__inner">
+            <i class="bi bi-exclamation-triangle" aria-hidden="true"></i>
+            <p>
+              <strong>تنبيه:</strong> هذا الموقع نموذج تجريبي (Demo). جميع
+              الأسماء والعناوين وأرقام الهواتف ومجالات العمل الواردة فيه
+              <strong>افتراضية</strong> ولا تمثل مكتبًا حقيقيًا، ولا تُعد
+              إقرارًا بتقديم أي خدمة قانونية. يجب مراجعة المحامي المسؤول لمحتوى
+              الموقع وأي ادعاءات مهنية قبل النشر، وفقًا للقواعد واللوائح المعمول
+              بها في جمهورية مصر العربية.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="practice" aria-labelledby="practiceTitle">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">
+              <span class="eyebrow__line" aria-hidden="true"></span>مجالات
+              الممارسة
+            </p>
+            <h2 class="section__title" id="practiceTitle">
+              أمثلة على مجالات العمل
+            </h2>
+            <p class="section__lead">
+              البطاقات التالية <strong>أمثلة تجريبية قابلة للتعديل</strong>.
+              عرضها هنا لا يعني أن المكتب يقدّم هذه الخدمات فعليًا؛ يجب تأكيد
+              المجالات الفعلية وتحديثها قبل النشر.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-briefcase"></i
+                ></span>
+                <h3 class="practice-card__title">الشركات والعقود</h3>
+                <p class="practice-card__text">
+                  مثال تجريبي لمجال يتعلق بصياغة ومراجعة العقود، والترتيبات
+                  التعاقدية بين الشركات، وأسئلة الحوكمة العامة.
+                </p>
+                <span class="tag-demo">مثال تجريبي</span>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-diagram-3"></i
+                ></span>
+                <h3 class="practice-card__title">
+                  المنازعات المدنية والتجارية
+                </h3>
+                <p class="practice-card__text">
+                  مثال تجريبي لمجال يتعلق بالمنازعات المدنية والتجارية ومسارات
+                  التسوية والتحكيم وفق ما ينطبق على الحالة.
+                </p>
+                <span class="tag-demo">مثال تجريبي</span>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-people"></i
+                ></span>
+                <h3 class="practice-card__title">العمل والتوظيف</h3>
+                <p class="practice-card__text">
+                  مثال تجريبي لمجال يتعلق بعلاقات العمل، ولوائح التوظيف
+                  الداخلية، والاستفسارات المتصلة بالعقود العمالية.
+                </p>
+                <span class="tag-demo">مثال تجريبي</span>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-buildings"></i
+                ></span>
+                <h3 class="practice-card__title">العقارات</h3>
+                <p class="practice-card__text">
+                  مثال تجريبي لمجال يتعلق بعقود البيع والإيجار، ومراجعة مستندات
+                  الملكية، والاستفسارات العقارية العامة.
+                </p>
+                <span class="tag-demo">مثال تجريبي</span>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-house-heart"></i
+                ></span>
+                <h3 class="practice-card__title">الأسرة والأحوال الشخصية</h3>
+                <p class="practice-card__text">
+                  مثال تجريبي لمجال يتعلق بمسائل الأحوال الشخصية والإجراءات
+                  المرتبطة بها، مع مراعاة طبيعة كل حالة على حدة.
+                </p>
+                <span class="tag-demo">مثال تجريبي</span>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="practice-card practice-card--muted">
+                <span class="practice-card__icon" aria-hidden="true"
+                  ><i class="bi bi-plus-lg"></i
+                ></span>
+                <h3 class="practice-card__title">مجال إضافي</h3>
+                <p class="practice-card__text">
+                  مساحة مخصّصة لإضافة مجال ممارسة آخر بعد تأكيده من المكتب. انسخ
+                  بطاقة قائمة وعدّل العنوان والوصف.
+                </p>
+                <span class="tag-demo">قابل للإضافة</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="section__foot">
+            <a href="#consult" class="btn btn-outline-navy">
+              <i class="bi bi-chat-left-text" aria-hidden="true"></i>
+              <span>لديك استفسار عام؟ أرسل طلب تواصل</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--alt"
+        id="about"
+        aria-labelledby="aboutTitle"
+      >
+        <div class="container">
+          <div class="row g-5 align-items-start">
+            <div class="col-lg-5">
+              <p class="eyebrow">
+                <span class="eyebrow__line" aria-hidden="true"></span>عن المكتب
+              </p>
+              <h2 class="section__title" id="aboutTitle">
+                تعريف محايد قابل للتعديل
+              </h2>
+              <p class="section__lead">
+                النص التالي مكتوب بصياغة محايدة وخالية من أي ادعاءات غير مثبتة،
+                ويُقصد به أن يكون نقطة بداية يستبدلها المكتب بوصفه الرسمي بعد
+                المراجعة.
+              </p>
+              <div class="about__note">
+                <i class="bi bi-pencil" aria-hidden="true"></i>
+                <span
+                  >استبدل هذا النص بوصف المكتب الفعلي، ولا تُضف تراخيص أو
+                  اعتمادات أو أرقام خبرة قبل التحقق منها.</span
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="about__body">
+                <p>
+                  «مكتب الميزان للمحاماة والاستشارات القانونية» اسم افتراضي
+                  مستخدم في هذا النموذج التجريبي. يهدف الموقع إلى توضيح طريقة
+                  تقديم طلبات التواصل، وعرض مجالات العمل بصورة عامة، وتوضيح
+                  الخطوات التي تلي إرسال الطلب.
+                </p>
+                <p>
+                  يعتمد أسلوب العمل المقترح في هذا النموذج على التنظيم والوضوح:
+                  يرسل المستخدم طلب تواصل، تتم مراجعته، ثم يُحدَّد موعد لمناقشة
+                  التفاصيل. ولا يُفهم من إرسال الطلب أن المكتب قبل القضية أو
+                  أنشأ علاقة محامٍ وموكّل.
+                </p>
+                <p>
+                  أي معلومات عن فريق المكتب أو مجالات عمله أو مواعيده يجب أن
+                  تُراجع وتُعتمد من المسؤول عن المكتب قبل نشرها، مع الالتزام
+                  بالقواعد المهنية واللوائح المعمول بها في جمهورية مصر العربية.
+                </p>
+              </div>
+
+              <div class="row g-4 about__stats">
+                <div class="col-sm-4">
+                  <div class="stat">
+                    <span class="stat__icon" aria-hidden="true"
+                      ><i class="bi bi-clipboard-check"></i
+                    ></span>
+                    <h3 class="stat__title">طلب منظّم</h3>
+                    <p class="stat__text">
+                      نموذج واضح لجمع المعلومات الأساسية فقط.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="stat">
+                    <span class="stat__icon" aria-hidden="true"
+                      ><i class="bi bi-signpost-split"></i
+                    ></span>
+                    <h3 class="stat__title">خطوات معلنة</h3>
+                    <p class="stat__text">شرح مسبق لما يحدث بعد إرسال الطلب.</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="stat">
+                    <span class="stat__icon" aria-hidden="true"
+                      ><i class="bi bi-shield-lock"></i
+                    ></span>
+                    <h3 class="stat__title">خصوصية</h3>
+                    <p class="stat__text">
+                      تنبيه بعدم إرسال تفاصيل حساسة في النسخة التجريبية.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process" aria-labelledby="processTitle">
+        <div class="container">
+          <div class="section__head section__head--center">
+            <p class="eyebrow eyebrow--center">
+              <span class="eyebrow__line" aria-hidden="true"></span>كيف نعمل
+            </p>
+            <h2 class="section__title" id="processTitle">أربع خطوات عامة</h2>
+            <p class="section__lead">
+              الخطوات التالية وصف عام لآلية مقترحة، وليست وعدًا بقبول أي طلب أو
+              بالوصول إلى نتيجة معينة.
+            </p>
+          </div>
+
+          <ol class="process">
+            <li class="process__step">
+              <span class="process__num" aria-hidden="true">٠١</span>
+              <div class="process__content">
+                <h3 class="process__title">إرسال طلب التواصل</h3>
+                <p class="process__text">
+                  تُدخل بياناتك الأساسية وموضوع الاستفسار بصورة عامة عبر
+                  النموذج، دون إرسال مستندات أو تفاصيل حساسة.
+                </p>
+              </div>
+            </li>
+            <li class="process__step">
+              <span class="process__num" aria-hidden="true">٠٢</span>
+              <div class="process__content">
+                <h3 class="process__title">مراجعة الطلب</h3>
+                <p class="process__text">
+                  يتم الاطلاع على الطلب لتحديد ما إذا كان ضمن نطاق عمل المكتب،
+                  وما إذا كانت هناك حاجة إلى معلومات إضافية.
+                </p>
+              </div>
+            </li>
+            <li class="process__step">
+              <span class="process__num" aria-hidden="true">٠٣</span>
+              <div class="process__content">
+                <h3 class="process__title">ترتيب موعد</h3>
+                <p class="process__text">
+                  عند الحاجة، يتم الاتفاق على موعد للتواصل في الوقت المفضل الذي
+                  حددته، بحسب ساعات العمل المعلنة.
+                </p>
+              </div>
+            </li>
+            <li class="process__step">
+              <span class="process__num" aria-hidden="true">٠٤</span>
+              <div class="process__content">
+                <h3 class="process__title">مناقشة الخطوات المناسبة</h3>
+                <p class="process__text">
+                  تُناقش الخطوات الملائمة للحالة إن أمكن، ويُوضَّح ما إذا كان
+                  المكتب يستطيع المتابعة من عدمه.
+                </p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="process__foot">
+            <p class="process__note">
+              <i class="bi bi-info-circle" aria-hidden="true"></i>
+              إرسال النموذج لا يعني تلقائيًا قبول المكتب للقضية، ولا يُنشئ علاقة
+              محامٍ وموكّل.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--alt"
+        id="team"
+        aria-labelledby="teamTitle"
+      >
+        <div class="container">
+          <div class="section__head section__head--center">
+            <p class="eyebrow eyebrow--center">
+              <span class="eyebrow__line" aria-hidden="true"></span>الفريق
+            </p>
+            <h2 class="section__title" id="teamTitle">تعريف تجريبي بالفريق</h2>
+            <p class="section__lead">
+              الأسماء والصور التالية
+              <strong>عناصر نائبة (Placeholders)</strong> لأغراض التصميم فقط.
+            </p>
+          </div>
+
+          <div class="team-notice" role="note">
+            <i class="bi bi-exclamation-octagon" aria-hidden="true"></i>
+            <p>
+              <strong>تنبيه:</strong> يجب استبدال الأسماء والصور والمناصب
+              بمعلومات وصور مصرّح باستخدامها من أصحابها، والتحقق من صحة أي وصف
+              مهني قبل النشر.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-sm-6 col-lg-3">
+              <article class="team-card">
+                <div class="team-card__photo" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 120 120"
+                    width="100%"
+                    height="100%"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <circle
+                      cx="60"
+                      cy="44"
+                      r="22"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                    <path
+                      d="M18 112c0-24 19-38 42-38s42 14 42 38z"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                  </svg>
+                </div>
+                <h3 class="team-card__name">[الاسم الكامل — نائب]</h3>
+                <p class="team-card__role">[المنصب المهني — نائب]</p>
+                <p class="team-card__meta">[نبذة قصيرة قابلة للتعديل]</p>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <article class="team-card">
+                <div class="team-card__photo" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 120 120"
+                    width="100%"
+                    height="100%"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <circle
+                      cx="60"
+                      cy="44"
+                      r="22"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                    <path
+                      d="M18 112c0-24 19-38 42-38s42 14 42 38z"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                  </svg>
+                </div>
+                <h3 class="team-card__name">[الاسم الكامل — نائب]</h3>
+                <p class="team-card__role">[المنصب المهني — نائب]</p>
+                <p class="team-card__meta">[نبذة قصيرة قابلة للتعديل]</p>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <article class="team-card">
+                <div class="team-card__photo" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 120 120"
+                    width="100%"
+                    height="100%"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <circle
+                      cx="60"
+                      cy="44"
+                      r="22"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                    <path
+                      d="M18 112c0-24 19-38 42-38s42 14 42 38z"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                  </svg>
+                </div>
+                <h3 class="team-card__name">[الاسم الكامل — نائب]</h3>
+                <p class="team-card__role">[المنصب المهني — نائب]</p>
+                <p class="team-card__meta">[نبذة قصيرة قابلة للتعديل]</p>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <article class="team-card">
+                <div class="team-card__photo" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 120 120"
+                    width="100%"
+                    height="100%"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <circle
+                      cx="60"
+                      cy="44"
+                      r="22"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                    <path
+                      d="M18 112c0-24 19-38 42-38s42 14 42 38z"
+                      fill="currentColor"
+                      opacity=".35"
+                    />
+                  </svg>
+                </div>
+                <h3 class="team-card__name">[الاسم الكامل — نائب]</h3>
+                <p class="team-card__role">[المنصب المهني — نائب]</p>
+                <p class="team-card__meta">[نبذة قصيرة قابلة للتعديل]</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faqTitle">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-4">
+              <p class="eyebrow">
+                <span class="eyebrow__line" aria-hidden="true"></span>أسئلة
+                شائعة
+              </p>
+              <h2 class="section__title" id="faqTitle">إجابات عامة</h2>
+              <p class="section__lead">
+                الإجابات التالية عامة ولا تمثل استشارة قانونية، ولا تعتمد على
+                ولاية قضائية محددة. تختلف الأحكام باختلاف الوقائع والأنظمة
+                المطبقة.
+              </p>
+              <div class="faq__disclaimer">
+                <i class="bi bi-journal-text" aria-hidden="true"></i>
+                <span
+                  >للحصول على رأي في حالة محددة، يلزم مراجعة محامٍ مرخّص ومطّلع
+                  على تفاصيل الحالة.</span
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="accordion faq-accordion" id="faqAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH1">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC1"
+                      aria-expanded="true"
+                      aria-controls="faqC1"
+                    >
+                      هل إرسال النموذج يعني قبول المكتب للقضية؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC1"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="faqH1"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      لا. إرسال النموذج هو مجرد طلب تواصل. لا ينشأ أي التزام على
+                      المكتب ولا أي علاقة محامٍ وموكّل إلا بعد موافقة صريحة من
+                      الطرفين واتفاق واضح على نطاق العمل.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH2">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC2"
+                      aria-expanded="false"
+                      aria-controls="faqC2"
+                    >
+                      ما المعلومات التي يجب إرسالها في الطلب؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqH2"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      يكفي في هذه المرحلة إرسال معلومات أساسية: الاسم، ووسيلة
+                      تواصل، ووصف عام لموضوع الاستفسار، والوقت المفضل للاتصال.
+                      لا ترسل مستندات أو تفاصيل حساسة عبر النموذج.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH3">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC3"
+                      aria-expanded="false"
+                      aria-controls="faqC3"
+                    >
+                      متى يتم الرد على الطلب؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqH3"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      تختلف المدة حسب حجم الطلبات وساعات العمل. في هذا النموذج
+                      التجريبي لا يوجد خادم فعلي ولا يتم إرسال أي طلب، لذا لا
+                      يوجد رد فعلي.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH4">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC4"
+                      aria-expanded="false"
+                      aria-controls="faqC4"
+                    >
+                      هل يمكن الحصول على استشارة عبر الموقع مباشرة؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqH4"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      لا. الموقع وسيلة للتواصل فقط، ولا يُقدّم استشارات قانونية
+                      ولا يُغني عن مراجعة محامٍ مرخّص. أي رأي قانوني يحتاج إلى
+                      دراسة الوقائع والمستندات.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH5">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC5"
+                      aria-expanded="false"
+                      aria-controls="faqC5"
+                    >
+                      هل تُحفظ بياناتي في هذا الموقع؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqH5"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      لا. هذا نموذج تجريبي بلا خادم. لا تُحفظ البيانات في
+                      المتصفح ولا تُرسل إلى أي جهة، وتُفقد بمجرد تحديث الصفحة.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="faqH6">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faqC6"
+                      aria-expanded="false"
+                      aria-controls="faqC6"
+                    >
+                      هل تختلف الإجابات باختلاف الدولة؟
+                    </button>
+                  </h3>
+                  <div
+                    id="faqC6"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqH6"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      نعم، تختلف القواعد والإجراءات من دولة إلى أخرى ومن ولاية
+                      قضائية إلى أخرى. الإجابات هنا عامة ولا تعتمد على نظام
+                      قانوني محدد.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--consult"
+        id="consult"
+        aria-labelledby="consultTitle"
+      >
+        <div class="container">
+          <div class="section__head section__head--center">
+            <p class="eyebrow eyebrow--center">
+              <span class="eyebrow__line" aria-hidden="true"></span>طلب استشارة
+            </p>
+            <h2 class="section__title" id="consultTitle">
+              نموذج طلب تواصل تجريبي
+            </h2>
+            <p class="section__lead">
+              املأ الحقول الأساسية. هذا النموذج تجريبي ولا يرسل بيانات إلى أي
+              خادم.
+            </p>
+          </div>
+
+          <div class="row g-4 g-lg-5">
+            <div class="col-lg-7">
+              <div class="consult-card">
+                <form id="consultForm" class="consult-form" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label" for="fullName"
+                        >الاسم الكامل
+                        <span class="req" aria-hidden="true">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fullName"
+                        name="fullName"
+                        autocomplete="name"
+                        required
+                        aria-required="true"
+                        aria-describedby="fullNameError"
+                        placeholder="مثال: أحمد محمد"
+                      />
+                      <p class="field-error" id="fullNameError"></p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label" for="contact"
+                        >وسيلة التواصل
+                        <span class="req" aria-hidden="true">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contact"
+                        name="contact"
+                        autocomplete="tel"
+                        required
+                        aria-required="true"
+                        aria-describedby="contactHelp contactError"
+                        placeholder="رقم هاتف أو بريد إلكتروني"
+                      />
+                      <p class="field-help" id="contactHelp">
+                        أدخل رقم هاتف أو بريدًا إلكترونيًا للتواصل.
+                      </p>
+                      <p class="field-error" id="contactError"></p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label" for="subject"
+                        >موضوع الاستفسار
+                        <span class="req" aria-hidden="true">*</span></label
+                      >
+                      <select
+                        class="form-select"
+                        id="subject"
+                        name="subject"
+                        required
+                        aria-required="true"
+                        aria-describedby="subjectError"
+                      >
+                        <option value="">اختر موضوعًا عامًا</option>
+                        <option value="corporate">الشركات والعقود</option>
+                        <option value="disputes">
+                          المنازعات المدنية والتجارية
+                        </option>
+                        <option value="employment">العمل والتوظيف</option>
+                        <option value="realestate">العقارات</option>
+                        <option value="family">الأسرة والأحوال الشخصية</option>
+                        <option value="other">موضوع آخر</option>
+                      </select>
+                      <p class="field-error" id="subjectError"></p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label" for="preferredTime"
+                        >الوقت المفضل للاتصال
+                        <span class="req" aria-hidden="true">*</span></label
+                      >
+                      <select
+                        class="form-select"
+                        id="preferredTime"
+                        name="preferredTime"
+                        required
+                        aria-required="true"
+                        aria-describedby="preferredTimeError"
+                      >
+                        <option value="">اختر الوقت المفضل</option>
+                        <option value="morning">صباحًا: ٩:٠٠ – ١٢:٠٠</option>
+                        <option value="noon">ظهرًا: ١٢:٠٠ – ٣:٠٠</option>
+                        <option value="afternoon">عصرًا: ٣:٠٠ – ٥:٠٠</option>
+                        <option value="evening">مساءً: ٥:٠٠ – ٨:٠٠</option>
+                      </select>
+                      <p class="field-error" id="preferredTimeError"></p>
+                    </div>
+
+                    <div class="col-12">
+                      <label class="form-label" for="summary"
+                        >وصف عام للاستفسار
+                        <span class="field-optional">(اختياري)</span></label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="summary"
+                        name="summary"
+                        rows="5"
+                        maxlength="600"
+                        aria-describedby="summaryHelp summaryCount"
+                        placeholder="اكتب وصفًا عامًا دون تفاصيل حساسة أو أسماء أطراف."
+                      ></textarea>
+                      <div class="field-row">
+                        <p class="field-help" id="summaryHelp">
+                          لا تُدخل تفاصيل سرية أو مستندات حساسة في النسخة
+                          التجريبية.
+                        </p>
+                        <p
+                          class="field-count"
+                          id="summaryCount"
+                          aria-live="polite"
+                        >
+                          ٠ / ٦٠٠
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-check consent">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="consent"
+                          name="consent"
+                          required
+                          aria-required="true"
+                          aria-describedby="consentError"
+                        />
+                        <label class="form-check-label" for="consent">
+                          أُقر بأن هذا نموذج تجريبي، وأن إرساله لا يعني قبول
+                          المكتب للقضية ولا يُنشئ علاقة محامٍ وموكّل، وأن محتوى
+                          الموقع لا يُعد استشارة قانونية.
+                        </label>
+                      </div>
+                      <p class="field-error" id="consentError"></p>
+                    </div>
+                  </div>
+
+                  <div class="consult-form__actions">
+                    <button
+                      type="submit"
+                      class="btn btn-copper btn-lg"
+                      id="submitBtn"
+                    >
+                      <span class="btn-label">إرسال الطلب (تجريبي)</span>
+                      <span class="btn-spinner" aria-hidden="true"></span>
+                    </button>
+                    <button
+                      type="reset"
+                      class="btn btn-ghost-navy btn-lg"
+                      id="resetBtn"
+                    >
+                      تفريغ الحقول
+                    </button>
+                  </div>
+
+                  <div
+                    class="form-status"
+                    id="formStatus"
+                    role="status"
+                    aria-live="polite"
+                    tabindex="-1"
+                  ></div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <aside class="consult-aside" aria-label="تنبيهات وإرشادات">
+                <div class="aside-box aside-box--warn">
+                  <h3 class="aside-box__title">
+                    <i
+                      class="bi bi-exclamation-triangle"
+                      aria-hidden="true"
+                    ></i>
+                    <span>لا تُدخل تفاصيل سرية</span>
+                  </h3>
+                  <p class="aside-box__text">
+                    هذه نسخة تجريبية بلا خادم ولا تشفير. لا تُدخل أسماء أطراف،
+                    أو أرقام قضايا، أو مستندات، أو أي بيانات حساسة.
+                  </p>
+                </div>
+
+                <div class="aside-box">
+                  <h3 class="aside-box__title">
+                    <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+                    <span>إرسال النموذج لا يعني قبول القضية</span>
+                  </h3>
+                  <p class="aside-box__text">
+                    إرسال النموذج لا يُنشئ تلقائيًا علاقة محامٍ وموكّل، ولا
+                    يُلزم المكتب بأي متابعة. العلاقة المهنية تبدأ فقط باتفاق
+                    صريح بين الطرفين.
+                  </p>
+                </div>
+
+                <div class="aside-box">
+                  <h3 class="aside-box__title">
+                    <i class="bi bi-telephone-outbound" aria-hidden="true"></i>
+                    <span>تواصل مباشر (بيانات تجريبية)</span>
+                  </h3>
+                  <ul class="aside-contact">
+                    <li>
+                      <a
+                        class="aside-contact__link"
+                        data-office-link="phone"
+                        href="#consult"
+                      >
+                        <i class="bi bi-telephone" aria-hidden="true"></i>
+                        <span data-office="phoneDisplay">+20 100 000 0000</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="aside-contact__link"
+                        data-office-link="whatsapp"
+                        href="#consult"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                        <span>مراسلة واتساب</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="aside-contact__link"
+                        data-office-link="email"
+                        href="#consult"
+                      >
+                        <i class="bi bi-envelope" aria-hidden="true"></i>
+                        <span data-office="email"
+                          >info@almizan-demo.example</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="aside-box__foot">
+                    جميع القيم أعلاه افتراضية وقابلة للتعديل.
+                  </p>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-labelledby="footerTitle">
+      <h2 class="visually-hidden" id="footerTitle">معلومات المكتب والتنقل</h2>
+      <div class="container">
+        <div class="row g-4 g-lg-5 footer__top">
+          <div class="col-lg-4">
+            <div class="footer__brand">
+              <span class="brand__mark" aria-hidden="true">
+                <svg
+                  viewBox="0 0 32 32"
+                  width="26"
+                  height="26"
+                  role="img"
+                  focusable="false"
+                >
+                  <rect
+                    x="1.5"
+                    y="1.5"
+                    width="29"
+                    height="29"
+                    rx="7"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M10 23V9h3.4l2.6 4.6L18.6 9H22v14h-2.6v-9.2L16.6 19h-1.2L12.6 13.8V23H10z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span class="footer__brand-text">
+                <strong>مكتب الميزان للمحاماة والاستشارات القانونية</strong>
+                <small>Al-Mizan Law Office — نموذج تجريبي</small>
+              </span>
+            </div>
+            <p class="footer__text">
+              موقع تجريبي لعرض التصميم وبنيته. جميع البيانات الواردة فيه
+              افتراضية ولا تمثل مكتبًا حقيقيًا أو نشاطًا مهنيًا فعليًا.
+            </p>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3 class="footer__title">تنقل سريع</h3>
+            <ul class="footer__list">
+              <li><a href="#practice">مجالات الممارسة</a></li>
+              <li><a href="#about">عن المكتب</a></li>
+              <li><a href="#process">كيف نعمل</a></li>
+              <li><a href="#team">الفريق</a></li>
+              <li><a href="#faq">أسئلة شائعة</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <h3 class="footer__title">بيانات تجريبية</h3>
+            <ul class="footer__list footer__list--contact">
+              <li>
+                <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                <span data-office="address"
+                  >١٢ شارع النيل، الدور الخامس، وسط البلد، القاهرة</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-telephone" aria-hidden="true"></i>
+                <a data-office-link="phone" href="#consult"
+                  ><span data-office="phoneDisplay">+20 100 000 0000</span></a
+                >
+              </li>
+              <li>
+                <i class="bi bi-envelope" aria-hidden="true"></i>
+                <a data-office-link="email" href="#consult"
+                  ><span data-office="email">info@almizan-demo.example</span></a
+                >
+              </li>
+              <li>
+                <i class="bi bi-clock" aria-hidden="true"></i>
+                <span data-office="hours">الأحد – الخميس: ٩:٠٠ ص – ٥:٠٠ م</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h3 class="footer__title">ابدأ التواصل</h3>
+            <p class="footer__text footer__text--sm">
+              أرسل طلب تواصل تجريبيًا عبر النموذج، أو استخدم بيانات الاتصال
+              الافتراضية أعلاه.
+            </p>
+            <a href="#consult" class="btn btn-copper w-100">
+              <i class="bi bi-envelope-paper" aria-hidden="true"></i>
+              <span>اطلب استشارة</span>
+            </a>
+            <p class="footer__mini-note">
+              لا يُعد إرسال النموذج قبولًا للقضية أو إنشاءً لعلاقة محامٍ وموكّل.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © <span id="year">2025</span> مكتب الميزان للمحاماة والاستشارات
+            القانونية — نموذج تجريبي.
+          </p>
+          <p class="footer__legal">
+            محتوى هذا الموقع لأغراض العرض ولا يُعد استشارة قانونية. يجب مراجعة
+            المحامي المسؤول للمحتوى وأي ادعاءات مهنية قبل النشر وفق القواعد
+            المعمول بها في جمهورية مصر العربية.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button
+      type="button"
+      class="to-top"
+      id="toTop"
+      aria-label="العودة إلى أعلى الصفحة"
+    >
+      <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

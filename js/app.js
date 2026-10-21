@@ -85,8 +85,6 @@ function initHeaderScroll() {
     toTop.addEventListener('click', () => {
       const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
-      const skipLink = document.querySelector('.skip-link');
-      if (skipLink) skipLink.focus({ preventScroll: true });
     });
   }
 }
